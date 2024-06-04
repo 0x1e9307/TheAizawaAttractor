@@ -41,3 +41,6 @@ This is a C program for visualizing the Aizawa attractor using OpenGL.
     ```sh
     ./Aizawa
     ```
+## Example
+
+![Example](Aizawa.gif)
