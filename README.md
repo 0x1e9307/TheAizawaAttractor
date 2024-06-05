@@ -1,6 +1,8 @@
-# Aizawa Attractor Visualization
+## The Aizawa Attractor
 
-This is a C program for visualizing the Aizawa attractor using OpenGL.
+Visualizing the Aizawa attractor using OpenGL.
+
+![The Aizawa Attractor](Aizawa.gif)
 
 ## Description
 
@@ -19,28 +21,15 @@ The Aizawa attractor is a mathematical model that exhibits chaotic behavior. It 
 - **q**: Exit fullscreen mode (if in fullscreen) or quit the program (if in windowed mode).
 - **Escape (Esc)**: Quit the program.
 
-## How-To
+## Quick Start
 
-1. Ensure you have the necessary dependencies installed:
-    ```sh
-    sudo apt-get update
-    sudo apt-get install build-essential libglu1-mesa-dev freeglut3-dev mesa-common-dev
-    ```
-2. Clone the repository:
-    ```sh
-    git clone https://github.com/0x1e9307/TheAizawaAttractor.git
-    cd TheAizawaAttractor
-    ```
-3. Compile the program using the Makefile:
-    ```sh
-    make
-    ```
+```console
+   $ make
+   $ ./Aizawa
+```
 
-4. Run the program:
-    ```sh
-    ./Aizawa
-    ```
-
-## Example
-
-![Example](Aizawa.gif)
+Ensure you have the necessary dependencies installed:
+```console
+   sudo apt-get update
+   sudo apt-get install build-essential libglu1-mesa-dev freeglut3-dev mesa-common-dev
+```
