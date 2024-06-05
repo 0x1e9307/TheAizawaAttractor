@@ -2,6 +2,10 @@
 
 This is a C program for visualizing the Aizawa attractor using OpenGL.
 
+## Description
+
+The Aizawa attractor is a mathematical model that exhibits chaotic behavior. It is particularly interesting due to its complex and visually appealing trajectories.
+
 ## Controls
 
 - **Up Arrow**: Increase the number of points.
@@ -36,6 +40,7 @@ This is a C program for visualizing the Aizawa attractor using OpenGL.
     ```sh
     ./Aizawa
     ```
+
 ## Example
 
-   ![Example](Aizawa.gif)
+![Example](Aizawa.gif)
