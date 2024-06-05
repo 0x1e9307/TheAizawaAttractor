@@ -6,9 +6,12 @@ This is a C program for visualizing the Aizawa attractor using OpenGL.
 
 - **Up Arrow**: Increase the number of points.
 - **Down Arrow**: Decrease the number of points.
-- **r**: Change the color of the attractor.
+- **Left Arrow**: Decrease the size of points.
+- **Right Arrow**: Increase the size of points.
+- **r**: Change the color of the attractor (random).
 - **R**: Reset to the initial color.
-- **f**: Fullscreen mode.
+- **f**: Toggle fullscreen mode.
+- **i**: Toggle information string.
 - **q**: Exit fullscreen mode (if in fullscreen) or quit the program (if in windowed mode).
 - **Escape (Esc)**: Quit the program.
 
