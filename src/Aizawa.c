@@ -11,13 +11,13 @@ char* WINDOW_TITLE = "Aizawa Attractor";
 
 // Rendering parameters
 const double DEFAULT_POINT_SIZE = 1.0;
-const int MAX_POINTS = 100000;
-const int MIN_POINTS = 500;
-const double MAX_POINT_SIZE = 3.0;
-const double MIN_POINT_SIZE = 0.2;
+int MAX_POINTS = 100000;
+int MIN_POINTS = 500;
+double MAX_POINT_SIZE = 3.0;
+double MIN_POINT_SIZE = 0.2;
 double DEFAULT_ANGLE_Z_INCREMENT = 1.0;
-const float INFO_MARGIN_LEFT = 40.0f;
-const float INFO_MARGIN_TOP = 40.0f;
+float INFO_MARGIN_LEFT = 40.0f;
+float INFO_MARGIN_TOP = 40.0f;
 
 // Attractor parameters
 double a_param = 0.95, b_param = 0.7, c_param = 0.6, d_param = 3.5, e_param = 0.25, f_param = 0.1;
