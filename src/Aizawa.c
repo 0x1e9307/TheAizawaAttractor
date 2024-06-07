@@ -131,7 +131,7 @@ void idle() {
 void keyboard(unsigned char key, int x, int y) {
     switch (key) {
         case 27: // ASCII code for the Esc key
-        case 'q':
+        case 'q': // Quit the program or exit fullscreen mode
             if (isFullScreen) {
                 glutReshapeWindow(WINDOW_WIDTH, WINDOW_HEIGHT);
                 isFullScreen = 0;
@@ -139,7 +139,7 @@ void keyboard(unsigned char key, int x, int y) {
                 exit(0);
             }
             break;
-        case 'f':
+        case 'f': // Toggle fullscreen mode
             if (isFullScreen) {
                 glutReshapeWindow(WINDOW_WIDTH, WINDOW_HEIGHT);
                 isFullScreen = 0;
@@ -148,23 +148,23 @@ void keyboard(unsigned char key, int x, int y) {
                 isFullScreen = 1;
             }
             break;
-        case 'r':
+        case 'r': // Toggle rotation of the attractor
             if (DEFAULT_ANGLE_Z_INCREMENT)
                 DEFAULT_ANGLE_Z_INCREMENT = 0.0f;
             else
                 DEFAULT_ANGLE_Z_INCREMENT = 1.0f;
             break;
-        case 'c':
+        case 'c': // Change the color of the attractor to a random color
             color[0] = (float)rand() / RAND_MAX;
             color[1] = (float)rand() / RAND_MAX;
             color[2] = (float)rand() / RAND_MAX;
             break;
-        case 'C':
+        case 'C': // Reset the color of the attractor to the initial color (cyan)
             color[0] = 0.0;
             color[1] = 1.0;
             color[2] = 1.0;
             break;
-        case 'i':
+        case 'i': // Toggle the information string display
             showInfo = !showInfo;
             break;
     }
@@ -207,7 +207,7 @@ void setup() {
 
 // Function to handle window resizing
 void reshape(int w, int h) {
-    if (h == 0) h = 1; // Prevent division by zero
+    if (h == 0) h = 1;
     glViewport(0, 0, w, h);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
