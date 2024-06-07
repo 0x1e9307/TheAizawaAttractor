@@ -14,10 +14,11 @@ The Aizawa attractor is a mathematical model that exhibits chaotic behavior. It 
 - **Down Arrow**: Decrease the number of points.
 - **Left Arrow**: Decrease the size of points.
 - **Right Arrow**: Increase the size of points.
-- **r**: Change the color of the attractor (random).
-- **R**: Reset to the initial color.
-- **f**: Toggle fullscreen mode.
+- **c**: Change the color of the attractor (random).
+- **C**: Reset to the initial color.
 - **i**: Toggle information string.
+- **r**: Toggle rotation.
+- **f**: Toggle fullscreen mode.
 - **q**: Exit fullscreen mode (if in fullscreen) or quit the program (if in windowed mode).
 - **Escape (Esc)**: Quit the program.
 
